@@ -86,7 +86,7 @@ func dbIndex(w http.ResponseWriter, r *http.Request) {
 
 	entries, err := DS.GetAll()
 	if err != nil {
-		log.Printf("error retrieving data: %s\n", err)
+		log.Printf("Error retrieving data: %s\n", err)
 	}
 
 	cnt := &Content{
