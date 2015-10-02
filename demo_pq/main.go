@@ -136,7 +136,7 @@ func main() {
 
 	ds, err := NewDatastore(DbHost, DbPort, DbUser, DbPass, DbName, DbSSLMode)
 	if err != nil {
-		log.Fatalf("unable to connect to datastore: %s", err)
+		log.Fatalf("Unable to connect to datastore: %s", err)
 	}
 
 	DS = ds
