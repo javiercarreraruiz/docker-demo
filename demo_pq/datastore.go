@@ -72,7 +72,7 @@ func (ds *Datastore) GetAll() ([]*LogEntry, error) {
 
 		logs = append(logs, &entry)
 	}
-	log.Printf("retrieved %d entries\n", len(logs))
+	log.Printf("Retrieved %d entries\n", len(logs))
 	return logs, nil
 }
 
