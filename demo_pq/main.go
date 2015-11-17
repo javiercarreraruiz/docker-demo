@@ -110,7 +110,7 @@ func main() {
 		if port != "" {
 			p, err := strconv.Atoi(port)
 			if err != nil {
-				log.Fatalf("unable to parse database port: %s", err)
+				log.Fatalf("Unable to parse database port: %s", err)
 			}
 
 			DbPort = p
